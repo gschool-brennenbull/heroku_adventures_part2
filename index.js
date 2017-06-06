@@ -1,4 +1,5 @@
 var express = require('express');
+const app = express();
 const ejs = require('ejs');
 
 app.set('port', (process.env.PORT || 5000));
